@@ -1,3 +1,5 @@
+from glm import GLM 
+from weibo_processor import WeiboProcessor
 # Database configuration
 db_config = {
     'user': 'weibo',
