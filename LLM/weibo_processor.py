@@ -145,6 +145,7 @@ class WeiboProcessor:
                 break
 
         self.last_processed_id = rows[-1][0]
+        self.save_last_processed_id(self.last_processed_id)
 
     def run(self, number = 10):
         cnt = 0
